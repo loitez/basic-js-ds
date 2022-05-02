@@ -36,7 +36,7 @@ function removeKFromList(l, k) {
         current = prev;
       } else {
         prev = current.next
-        l.first = prev;
+        current = prev;
       }
     } else {
       prev = current;
